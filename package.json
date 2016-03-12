@@ -1,0 +1,44 @@
+{
+  "name": "mandi",
+  "version": "0.0.1",
+  "description": "A Slack app bot user for integration with namedrop.io (https://namedrop.io).",
+  "main": "mandi.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul cover mocha './test/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluxAugur/mandi.git"
+  },
+  "keywords": [
+    "slack",
+    "slackbot",
+    "bot",
+    "robot",
+    "namedrop.io",
+    "namedropio",
+    "namedrop",
+    "announcement",
+    "pronunciation",
+    "communication",
+    "social",
+    "media",
+    "marketing",
+    "brand",
+    "javascript",
+    "js",
+    "node",
+    "node.js",
+    "nodejs",
+    "botkit"
+  ],
+  "author": "Nathanial L. McConnell <fluxaugur@gmail.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FluxAugur/mandi/issues"
+  },
+  "homepage": "https://github.com/FluxAugur/mandi#readme",
+  "dependencies": {
+    "botkit": "0.0.8"
+  }
+}
